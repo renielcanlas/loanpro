@@ -228,15 +228,6 @@ function Home() {
                   </div>
                 ))}
               </div>
-              
-              <div className="mt-8">
-                <Link 
-                  to="/register" 
-                  className="btn-primary"
-                >
-                  Start Your Free Trial
-                </Link>
-              </div>
             </motion.div>
           </div>
         </div>
@@ -258,20 +249,6 @@ function Home() {
               Join thousands of lending professionals who have streamlined their
               loan management process with LoanPro.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link 
-                to="/register" 
-                className="btn bg-white text-primary-700 hover:bg-primary-50"
-              >
-                Start Now
-              </Link>
-              <Link 
-                to="#" 
-                className="btn bg-transparent text-white border border-white hover:bg-primary-800"
-              >
-                Schedule a Demo
-              </Link>
-            </div>
           </motion.div>
         </div>
       </section>

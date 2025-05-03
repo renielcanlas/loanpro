@@ -171,7 +171,7 @@ function LoanDetails() {
           <div className="p-6 space-y-4">
             <div>
               <label className="block text-xs font-medium text-neutral-500">Amount</label>
-              <p className="mt-1 text-neutral-800">${loan.amount?.toLocaleString()}</p>
+              <p className="mt-1 text-neutral-800">₱{loan.amount?.toLocaleString()}</p>
             </div>
             <div>
               <label className="block text-xs font-medium text-neutral-500">Term</label>
@@ -196,11 +196,11 @@ function LoanDetails() {
           <div className="p-6 space-y-4">
             <div>
               <label className="block text-xs font-medium text-neutral-500">Monthly Payment</label>
-              <p className="mt-1 text-neutral-800">${loan.monthlyPayment?.toLocaleString()}</p>
+              <p className="mt-1 text-neutral-800">₱{loan.monthlyPayment?.toLocaleString()}</p>
             </div>
             <div>
               <label className="block text-xs font-medium text-neutral-500">Total Payable</label>
-              <p className="mt-1 text-neutral-800">${loan.totalPayable?.toLocaleString()}</p>
+              <p className="mt-1 text-neutral-800">₱{loan.totalPayable?.toLocaleString()}</p>
             </div>
             <div>
               <label className="block text-xs font-medium text-neutral-500">First Payment Due</label>
